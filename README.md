@@ -1,12 +1,12 @@
-# AudioSplit (WIP)
+# AudioSplit
 
-AudioSplit is a C++ program which enables users to split a huge mp3 file with different songs into respective mp3 song files.
+AudioSplit is a C++ program which enables users to split a huge mp3 file into small mp3 files.
 
 ## Usage
 Download a mp3 file from youtube:
 
-```
-youtube-dl --extract-audio --verbose --audio-format mp3 "https://www.youtube.com/watch?v=2Q6vj1EKUBE"
+```bash
+$ youtube-dl --extract-audio --verbose --audio-format mp3 "https://www.youtube.com/watch?v=2Q6vj1EKUBE"
 ```
 `playList.plyl`:
 ```
@@ -29,8 +29,8 @@ youtube-dl --extract-audio --verbose --audio-format mp3 "https://www.youtube.com
 01:02:20 - Make Or Brake - (Fastway)
 ```
 
-```
-./audiosplit --file super_eurobeat_vol8.mp3 --playlist playList.plyl 
+```bash
+$ ./audiosplit --file super_eurobeat_vol8.mp3 --playlist playList.plyl --type mp3
 ```
 
 Result:
