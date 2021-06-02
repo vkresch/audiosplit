@@ -1,7 +1,0 @@
-AudioSplit:
-    ☐ Implement unit tests 
-    ☐ Implement travis ci @1h
-
-    Later:
-        ☐ Implement it in python and make a pull request for youtube-dl
-        ☐ Consider pybind11 for faster processing

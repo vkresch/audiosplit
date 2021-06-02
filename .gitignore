@@ -1,0 +1,6 @@
+# File extensions
+.DS_Store
+
+# Folders to ignore
+Builds/
+JuceLibraryCode/
